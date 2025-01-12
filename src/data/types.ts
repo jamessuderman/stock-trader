@@ -9,3 +9,24 @@ export type Index = {
   daysUpDown: number;
   positiveDays: number;
 };
+
+export type StockGrowth = {
+  symbol: string;
+  name: string;
+  industry: string;
+  sector: string;
+  date: Date;
+  close: number;
+  volume: number;
+  rsi: number;
+  atr: number;
+  weightedStrength: number;
+  daysUpDown: number;
+  momentumTrend: boolean;
+  strengthGrade: number;
+  revenueGrade: number;
+  grossProfitGrade: number;
+  ebitdaGrade: number;
+  opIncomeGrade: number;
+  epsGrade: number;
+};
